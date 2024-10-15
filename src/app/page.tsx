@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa";
+import Credits from "./ui/Credits";
 
 export default function Home() {
   return (
@@ -19,8 +20,19 @@ export default function Home() {
         <nav>
           <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
             <li className="mb-2">
-              <a href="/testimonial-card" className="hover:underline hover:text-pink-500">
+              <a
+                href="/testimonial-card"
+                className="hover:underline hover:text-pink-500"
+              >
                 Testimonial Card
+              </a>
+            </li>
+            <li className="mb-2">
+              <a
+                href="/blog-card"
+                className="hover:underline hover:text-pink-500"
+              >
+                Blog Card
               </a>
             </li>
           </ol>
@@ -36,6 +48,7 @@ export default function Home() {
           <FaGithub aria-hidden title="Github Icon" />
           My GitHub
         </a>
+        <Credits />
       </footer>
     </div>
   );

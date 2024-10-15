@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import TestimonialCard from "../ui/TestimonialCard";
+import TestimonialCard from "../ui/testimonial-card/TestimonialCard";
 import ProfilePic from "@/app/images/profile-thumbnail.png";
 
 export const metadata: Metadata = {
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function TestimonialCardPage() {
   return (
     <div>
-      <main>
+      <main className="mx-auto mt-[200px] w-fit">
         <TestimonialCard
           imageSrc={ProfilePic}
           imageAlt="profile picture of a smiling woman with glasses and wavy hair"
