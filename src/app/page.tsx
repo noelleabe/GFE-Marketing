@@ -1,5 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import Credits from "./ui/Credits";
+import { routes, RouteType } from "@/app/constants/routes";
+import NavLinkItem from "./ui/NavLinkItem";
 
 export default function Home() {
   return (
@@ -19,35 +21,13 @@ export default function Home() {
         </header>
         <nav>
           <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-            <li className="mb-2">
-              <a
-                href="/testimonial-card"
-                className="hover:underline hover:text-pink-500"
-              >
-                Testimonial Card
-              </a>
-            </li>
-            <li className="mb-2">
-              <a
-                href="/blog-card"
-                className="hover:underline hover:text-pink-500"
-              >
-                Blog Card
-              </a>
-            </li>
+            {routes.map(({ title, to, id }: RouteType) => (
+              <NavLinkItem title={title} to={to} key={id} />
+            ))}
           </ol>
         </nav>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/noelleabe/GFE-Marketing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub aria-hidden title="Github Icon" />
-          My GitHub
-        </a>
+      <footer>
         <Credits />
       </footer>
     </div>
