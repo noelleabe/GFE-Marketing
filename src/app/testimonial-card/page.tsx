@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function TestimonialCardPage() {
   return (
     <div>
-      <main className="mx-auto mt-[200px] w-fit">
+      <main className="mx-auto py-[200px] w-fit">
         <TestimonialCard
           imageSrc={ProfilePic}
           imageAlt="profile picture of a smiling woman with glasses and wavy hair"

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function TestimonialCardPage() {
   return (
     <div>
-      <main className="mx-auto mt-[120px] w-fit">
+      <main className="mx-auto py-[120px] w-fit">
         <BlogCard
           chipText="Interior"
           description="Curated vibrants colors for your living, make it pop & calm in the
