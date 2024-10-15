@@ -19,8 +19,7 @@ export default function Home() {
         <nav>
           <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
             <li className="mb-2">
-              {/* TODO: link to testimonial card page */}
-              <a href="#" className="hover:underline hover:text-pink-500">
+              <a href="/testimonial-card" className="hover:underline hover:text-pink-500">
                 Testimonial Card
               </a>
             </li>
