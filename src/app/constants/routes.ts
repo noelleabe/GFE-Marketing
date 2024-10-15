@@ -13,4 +13,9 @@ export const routes: RouteType[] = [
     to: "/blog-card",
     id: 2,
   },
+  {
+    title: "Profile Card",
+    to: "/profile-card",
+    id: 3,
+  },
 ];
