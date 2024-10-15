@@ -1,4 +1,3 @@
-import { FaGithub } from "react-icons/fa";
 import Credits from "./ui/Credits";
 import { routes, RouteType } from "@/app/constants/routes";
 import NavLinkItem from "./ui/NavLinkItem";
