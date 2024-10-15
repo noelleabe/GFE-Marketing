@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Blog Card",
 };
 
-export default function TestimonialCardPage() {
+export default function BlogCardPage() {
   return (
     <div>
       <main className="mx-auto py-[120px] w-fit">
