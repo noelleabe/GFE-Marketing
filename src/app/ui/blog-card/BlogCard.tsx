@@ -1,10 +1,10 @@
 import React from "react";
 import { RiArrowRightLine } from "react-icons/ri";
 import Image, { StaticImageData } from "next/image";
-import Card from "../Card";
-import Description from "../Description";
-import Chip from "../Chip";
-import Link from "../Link";
+import Card from "../common/Card";
+import Description from "../common/Description";
+import Chip from "../common/Chip";
+import Link from "../common/Link";
 
 interface IBlogCardProps {
   chipText?: string;

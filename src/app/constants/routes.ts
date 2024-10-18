@@ -1,4 +1,4 @@
-import { INavLinkItem } from "../ui/NavLinkItem";
+import { INavLinkItem } from "../ui/common/NavLinkItem";
 
 export type RouteType = INavLinkItem & { id: number };
 

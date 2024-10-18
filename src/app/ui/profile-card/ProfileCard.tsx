@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../Card";
-import CardHeader from "../CardHeader";
-import CardContent from "../CardContent";
+import Card from "../common/Card";
+import CardHeader from "../common/CardHeader";
+import CardContent from "../common/CardContent";
 import Image, { StaticImageData } from "next/image";
-import Link from "../Link";
-import CardIconFooter from "../CardIconFooter";
+import Link from "../common/Link";
+import CardIconFooter from "../common/CardIconFooter";
 
 interface IProfileCardProps {
   description: string;

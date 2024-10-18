@@ -1,6 +1,6 @@
-import Credits from "./ui/Credits";
+import Credits from "./ui/common/Credits";
 import { routes, RouteType } from "@/app/constants/routes";
-import NavLinkItem from "./ui/NavLinkItem";
+import NavLinkItem from "./ui/common/NavLinkItem";
 
 export default function Home() {
   return (
